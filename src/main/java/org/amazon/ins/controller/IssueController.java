@@ -31,7 +31,7 @@ public class IssueController {
 	IssueRepository issueRepo;
 	
 	/**
-	 * This API returns a list of all the saved issues
+	 * This end-point returns a list of all the saved issues
 	 * @return list of saved issues
 	 */
 	@GetMapping("/getIssues")
@@ -40,7 +40,7 @@ public class IssueController {
 	}
 	
 	/**
-	 * This API saves a list of issues to the database.
+	 * This end-point saves a list of issues to the database.
 	 * 
 	 * @param issueList list of issues to be saved
 	 * @return list of issues after saving
@@ -51,7 +51,7 @@ public class IssueController {
 	}
 	
 	/**
-	 * This API returns a list of all issues by impact.
+	 * This end-point returns a list of all issues by impact.
 	 * impact = {"critical","significant","minor"}
 	 * 
 	 * @param impact issue impact
